@@ -14,4 +14,10 @@ Project skeleton generated with `npx express-generator`
 
 ## To run
 - `npm start`
+
 - `curl --request GET localhost:3000/student`
+- `curl --request GET localhost:3000/student/1`
+- `curl --request GET localhost:3000/student&search=Senpai`
+- `curl --request GET localhost:3000/grade/1`
+- `curl --request POST -d "id=1&grade=93" localhost:3000/grade`
+- `curl --request POST -d "username=alex&email=alex@email.com" localhost:3000/register`
