@@ -9,3 +9,6 @@ Create a new repository for this project. Create a Restful API in Express which 
 - GET grades/:studentId - returns all grades for a given student by student id
 - POST grade - records a new grade, returns success status in JSON response (meaning you do not need to actually store the grade in a database. You do need to validate that the user supplied at least a grade, and a studentId)
 - POST register - creates a new user, returns success status in JSON response (meaning you do not need to actually store the user info in a database. You do need to validate that the user supplied username and email)
+
+
+Project skeleton generated with `npx express-generator` 
