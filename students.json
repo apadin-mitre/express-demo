@@ -1,0 +1,43 @@
+[
+	{
+		"ID": "1",
+		"Name": "Senpai",
+		"grades": [90, 83, 48, 52, 92, 84]
+	},
+	{
+		"ID": "2",
+		"Name": "Yui Rio",
+		"grades": [29, 33, 94, 28, 100, 32]
+		
+	},
+	{
+		"ID": "3",
+		"Name": "Yuna Hina",
+		"grades": [56, 63, 77, 22, 95, 74]
+		
+	},
+	{
+		"ID": "4",
+		"Name": "Koharu Hinata",
+		"grades": [97, 13, 98, 32, 42, 74]
+		
+	},
+	{
+		"ID": "5",
+		"Name": "Mei Mio",
+		"grades": [67, 75, 98, 78, 25, 94]
+		
+	},
+	{
+		"ID": "6",
+		"Name": "Saki Miyu",
+		"grades": [70, 77, 93, 88, 35, 49]
+		
+	},
+	{
+		"ID": "7",
+		"Name": "Kokona Haruka",
+		"grades": [76, 83, 33, 72, 85, 79]
+		
+	}
+]

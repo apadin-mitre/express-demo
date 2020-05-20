@@ -6,6 +6,8 @@ var logger = require('morgan');
 
 // Inject routes...
 var studentRouter = require('./routes/student');
+var gradeRouter = require('./routes/grade');
+var registerRouter = require('./routes/register');
 
 var app = express();
 
@@ -17,6 +19,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Add routes...
 app.use('/student', studentRouter);
+app.use('/grade', gradeRouter);
+app.use('/register', registerRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
